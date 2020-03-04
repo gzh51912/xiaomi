@@ -1,0 +1,105 @@
+@function vw($px) {
+    @return $px/750*100vw;
+}
+
+.floor {
+    background-color: rgb(245, 245, 245);
+}
+
+.floorUpPic img,
+.floorTitle img {
+    width: 100%;
+}
+
+.floorTitle {
+    border-bottom: vw(6.667) solid rgb(255, 255, 255);
+}
+
+.floorItem {
+    background: rgb(255, 255, 255);
+    padding: 0 vw(12);
+    width: 100%;
+    overflow: hidden;
+    text-align: center;
+
+    a {
+        width: 50%;
+        float: left;
+        display: inline-block;
+
+        .info {
+            padding: vw(20) vw(27);
+
+            .name {
+                white-space: nowrap;
+                overflow: hidden;
+                text-overflow: ellipsis;
+                font-size: vw(28);
+                color: rgba(0, 0, 0, .87);
+            }
+
+            .detail {
+                margin-top: vw(6);
+                font-size: vw(24);
+                line-height: vw(30);
+                color: rgba(0, 0, 0, .54);
+                white-space: nowrap;
+                overflow: hidden;
+                text-overflow: ellipsis;
+            }
+
+            .price {
+                font-size: vw(30);
+                color: #ea625b;
+                height: vw(75);
+                line-height: vw(75);
+                position: relative;
+                display: inline-block;
+                padding-left: vw(25);
+            }
+
+            .price:before {
+                content: "\A5";
+                position: absolute;
+                left: 0;
+                top: 0;
+                font-size: vw(38);
+                text-decoration: none;
+            }
+
+            .buyNow {
+                width: vw(200);
+                background: #ea625b;
+                border-radius: vw(5);
+                text-align: center;
+                color: #fff;
+                font-size: vw(24);
+                padding: vw(16) 0;
+                font-weight: 700;
+                margin: 0 auto;
+            }
+        }
+    }
+
+    img {
+        width: 100%;
+        display: block;
+        border: 0;
+    }
+}
+.floorItem.control{
+    a{
+        height: vw(540);
+    }
+}
+.toMore {
+    margin-top: vw(2);
+    border-top: vw(2) solid rgb(206, 206, 206);
+    background: #fff;
+    height: vw(100);
+    line-height: vw(100);
+    font-size: vw(28);
+    text-align: center;
+    margin-bottom: vw(8);
+    border-bottom: vw(8) solid rgb(245, 245, 245);
+}

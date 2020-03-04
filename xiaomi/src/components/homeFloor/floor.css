@@ -1,0 +1,101 @@
+.floor {
+  background-color: whitesmoke;
+}
+
+.floorUpPic img,
+.floorTitle img {
+  width: 100%;
+}
+
+.floorTitle {
+  border-bottom: 0.88893vw solid white;
+}
+
+.floorItem {
+  background: white;
+  padding: 0 1.6vw;
+  width: 100%;
+  overflow: hidden;
+  text-align: center;
+}
+
+.floorItem a {
+  width: 50%;
+  float: left;
+  display: inline-block;
+}
+
+.floorItem a .info {
+  padding: 2.66667vw 3.6vw;
+}
+
+.floorItem a .info .name {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  font-size: 3.73333vw;
+  color: rgba(0, 0, 0, 0.87);
+}
+
+.floorItem a .info .detail {
+  margin-top: 0.8vw;
+  font-size: 3.2vw;
+  line-height: 4vw;
+  color: rgba(0, 0, 0, 0.54);
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.floorItem a .info .price {
+  font-size: 4vw;
+  color: #ea625b;
+  height: 10vw;
+  line-height: 10vw;
+  position: relative;
+  display: inline-block;
+  padding-left: 3.33333vw;
+}
+
+.floorItem a .info .price:before {
+  content: "\A5";
+  position: absolute;
+  left: 0;
+  top: 0;
+  font-size: 5.06667vw;
+  text-decoration: none;
+}
+
+.floorItem a .info .buyNow {
+  width: 26.66667vw;
+  background: #ea625b;
+  border-radius: 0.66667vw;
+  text-align: center;
+  color: #fff;
+  font-size: 3.2vw;
+  padding: 2.13333vw 0;
+  font-weight: 700;
+  margin: 0 auto;
+}
+
+.floorItem img {
+  width: 100%;
+  display: block;
+  border: 0;
+}
+
+.floorItem.control a {
+  height: 72vw;
+}
+
+.toMore {
+  margin-top: 0.26667vw;
+  border-top: 0.26667vw solid #cecece;
+  background: #fff;
+  height: 13.33333vw;
+  line-height: 13.33333vw;
+  font-size: 3.73333vw;
+  text-align: center;
+  margin-bottom: 1.06667vw;
+  border-bottom: 1.06667vw solid whitesmoke;
+}

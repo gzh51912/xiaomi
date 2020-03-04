@@ -1,0 +1,37 @@
+@function vw($px){
+  @return $px/750*100vw;
+}
+.App{
+  font-size: vw(28);
+}
+main{
+  margin-bottom: vw(104);
+}
+nav{
+  position: fixed;
+  z-index: 9999;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: vw(104);
+  width: 100%;
+  display: flex;
+  align-items: center;
+  background-color: #fff;
+  a{
+    width: 25%;
+    text-align: center;
+    i{
+      display: block;
+      width: vw(40);
+      height: vw(40);
+      margin: 0 auto vw(10);
+    }
+    i.iconfont{
+      font-size:vw(38); 
+    }
+  }
+  .active{
+    color: #ff6700;
+  }
+}

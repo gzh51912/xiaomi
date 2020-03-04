@@ -1,0 +1,18 @@
+@function vw($px) {
+    @return $px/750*100vw;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    span.iconfont{
+        font-size: vw(50);
+        padding-top: vw(12);
+    }
+    .tit{
+        flex: 1;
+        padding-top: vw(18);
+        text-align: center;
+        font-size: vw(32)
+    }
+}
