@@ -10,7 +10,7 @@ function App() {
         <Switch>
         {
           routes.map((item)=>{
-            return <Route path={item.path} component={item.component} />
+            return <Route path={item.path} key={item.path} component={item.component} />
           })
         }
         <Redirect from="/" to="/home" exact />

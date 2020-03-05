@@ -26,7 +26,7 @@ export default class Home extends Component {
                         <div className="listBox">
                             {
                                 this.state.tabs.map((item,index)=>{
-                                    return <div><span className={index===0?"spanActive":""}>{item}</span></div>
+                                    return <div key={index}><span className={index===0?"spanActive":""}>{item}</span></div>
                                 })
                             }
                         </div>
