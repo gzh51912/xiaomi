@@ -7,7 +7,7 @@ const jwt = require("jsonwebtoken");
 
 //建立模型
 var Goods = mongoose.model("classify",{name:String,age:Number},"classify");
-
+var Star = mongoose.model("star",{name:String,age:Number},"star");
 //可以拦截所有的请求
 
 // router.use(function(req,res,next){
@@ -127,6 +127,19 @@ router.post("/modifyok",(req,res)=>{
 router.get("/classify",(req,res)=>{
 	res.setHeader("Access-Control-Allow-Origin","*");
 	Goods.find({}).then((response)=>{
+		res.json({
+			status:0, //0 正常返回  -1 出错啦
+			list:response[0],
+
+		})
+	})
+})
+
+
+//获取星球页数据
+router.get("/star",(req,res)=>{
+	res.setHeader("Access-Control-Allow-Origin","*");
+	Star.find({}).then((response)=>{
 		res.json({
 			status:0, //0 正常返回  -1 出错啦
 			list:response[0],

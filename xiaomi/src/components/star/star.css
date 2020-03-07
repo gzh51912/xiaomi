@@ -1,0 +1,198 @@
+.container {
+  background-color: #f5f5f5;
+}
+
+.starHeader {
+  background-color: #fff;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 200;
+}
+
+.starHeader .headerBox {
+  width: 92.26667vw;
+  height: 11.02667vw;
+  line-height: 11.02667vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  margin: auto;
+  overflow: hidden;
+}
+
+.starHeader .threeMenu .spanActive {
+  color: #ff6700;
+}
+
+.starHeader .threeMenu span:nth-of-type(1) {
+  margin-left: 3.2vw;
+}
+
+.starHeader .threeMenu span:not(:last-child) {
+  margin-right: 4.8vw;
+}
+
+.starHeader .threeMenu span {
+  font-size: 4.26667vw;
+  font-weight: 700;
+  text-align: left;
+}
+
+.starHeader .twoIcon {
+  display: flex;
+  justify-content: space-around;
+}
+
+.starHeader .twoIcon span {
+  display: inline-block;
+  width: 10.66667vw;
+  height: 10.66667vw;
+  text-align: right;
+}
+
+.starHeader .twoIcon span:nth-of-type(1) {
+  margin-right: 2vw;
+  font-size: 6.66667vw;
+}
+
+.starHeader .twoIcon span:nth-of-type(2) {
+  font-size: 7.33333vw;
+}
+
+.circleList {
+  width: 100%;
+  overflow-x: auto;
+  z-index: 1;
+  padding-bottom: 5.86667vw;
+  border-radius: 0 0 2.13333vw 2.13333vw;
+  margin: 0 auto;
+  width: 93.6vw;
+  background-color: #fff;
+}
+
+.circleList .circleListBox {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.circleList .circleListBox .circleItem {
+  width: 25.33333vw;
+  position: relative;
+  flex: none;
+  padding-top: 2.66667vw;
+  text-align: center;
+  display: inline-block;
+}
+
+.circleList .circleListBox .circleItem i {
+  height: 3.2vw;
+  line-height: 3.2vw;
+  background: #ff2929;
+  color: #fff;
+  text-align: center;
+  padding: 0.26667vw 1.33333vw;
+  border-radius: 2.66667vw 2.66667vw 2.66667vw 0;
+  position: absolute;
+  white-space: nowrap;
+  left: 14.66667vw;
+  top: 0.66667vw;
+  font-size: 2.93333vw;
+  font-style: normal;
+  box-sizing: content-box;
+}
+
+.circleList .circleListBox img {
+  display: block;
+  width: 15.02667vw;
+  height: 15.02667vw;
+  margin: auto;
+  margin-bottom: 1.50667vw;
+  border-radius: 50%;
+}
+
+.circleList .circleListBox .circleTit1 {
+  font-size: 3.2vw;
+  font-weight: 700;
+  color: #000;
+  line-height: 4.26667vw;
+  margin-bottom: 0.53333vw;
+  text-align: center;
+}
+
+.circleList .circleListBox .circleTit2 {
+  font-size: 2.66667vw;
+  line-height: 3.46667vw;
+  color: rgba(0, 0, 0, 0.5);
+  text-align: center;
+}
+
+.circleBigTit {
+  width: 89.6vw;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  font-size: 3.2vw;
+  font-weight: 700;
+  color: #000;
+  line-height: 4.26667vw;
+  margin: 11.02667vw auto 4.53333vw;
+  padding-top: 4.8vw;
+}
+
+.circleBigTit div {
+  margin-left: 2.13333vw;
+  font-size: 3.73333vw;
+  font-weight: 700;
+  color: #000;
+  line-height: 4.26667vw;
+}
+
+.circleBigTit a {
+  margin-right: 2.13333vw;
+  font-size: 3.2vw;
+}
+
+.fourPic {
+  width: 93.6vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  margin: auto;
+}
+
+.fourPic div {
+  display: block;
+  margin-top: 2.66667vw;
+  margin-bottom: 2.66667vw;
+}
+
+.fourPic div img {
+  width: 20.8vw;
+  height: 20.8vw;
+  -webkit-box-flex: 0;
+  -ms-flex: none;
+  flex: none;
+  border-radius: 2.13333vw;
+}

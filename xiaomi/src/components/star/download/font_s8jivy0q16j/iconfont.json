@@ -1,0 +1,23 @@
+{
+  "id": "",
+  "name": "",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "4933216",
+      "name": "铃铛",
+      "font_class": "lingdang",
+      "unicode": "e6f1",
+      "unicode_decimal": 59121
+    },
+    {
+      "icon_id": "7674872",
+      "name": "用户",
+      "font_class": "dingbudaohang-zhangh",
+      "unicode": "e713",
+      "unicode_decimal": 59155
+    }
+  ]
+}
